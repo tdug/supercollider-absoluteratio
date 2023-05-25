@@ -1,0 +1,1 @@
+python /home/tom/.local/src/SuperCollider/tools/cmake_gen/generate_server_plugin_cmake.py -P "Absolute Ratio" -p "plugins/AbsoluteRatio" -a "Tom Dugovic"
