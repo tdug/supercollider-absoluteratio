@@ -1,3 +1,3 @@
 + UGen {
-    absRatio { |other=1.0| ^AbsRatio.ar(this, other) }
+    absoluteRatio { |other=1.0| ^AbsoluteRatio.ar(this, other) }
 }
