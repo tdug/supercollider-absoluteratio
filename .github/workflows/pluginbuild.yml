@@ -5,7 +5,8 @@ on:
 
 jobs:
   build:
-
+    permissions:
+      contents: write
     runs-on: ${{ matrix.os }}
     name: ${{ matrix.name }}
     strategy:
@@ -28,10 +29,10 @@ jobs:
       ARCHIVE_NAME: AbsoluteRatio-${{ matrix.name }}.zip
     steps:
     - name: Checkout AbsoluteRatio
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Checkout SuperCollider
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         repository: supercollider/supercollider
         path: ${{ env.SC_PATH }}
