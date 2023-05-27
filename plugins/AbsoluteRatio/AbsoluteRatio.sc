@@ -1,10 +1,7 @@
 AbsoluteRatio : UGen {
-	*ar { |input, gain|
-		/* TODO */
-		^this.multiNew('audio', input, gain);
-	}
-	checkInputs {
-		/* TODO */
-		^this.checkValidInputs;
-	}
+	*ar { |x,y=1.0| ^this.multiNew('audio', x, y); }
+	/* TODO
+	*kr { |x,y=1| ^this.multiNew('control', x, y); }
+	*ir { |x,y=1| ^this.multiNew('scalar', x, y); }
+	*/
 }

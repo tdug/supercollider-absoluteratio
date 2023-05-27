@@ -10,11 +10,14 @@ A simple audio volume gain plugin
 
 classmethods::
 
-method::ar, kr
+method::ar
 
-argument::TODO
+argument::x
 
-argument::TODO
+argument::y
+
+This function is designed for two positive numbers to be compared, and return the lesser divided by the greater.
+code::f(x,y) = x > y ? y / x : x / y::
 
 
 examples::

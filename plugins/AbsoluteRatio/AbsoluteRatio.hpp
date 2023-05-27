@@ -16,7 +16,7 @@ public:
 
 private:
     // Calc function
-    void next(int nSamples);
+    void next_a(int nSamples);
 
     // Member variables
 };
