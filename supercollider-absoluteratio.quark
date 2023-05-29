@@ -1,4 +1,5 @@
 (
     name: "Absolute Ratio",
+    summary: "A function that gives the ratio between two numbers, or the reciprocol of that if it is greater than one.",
     author: "Tom Dugovic"
 )
